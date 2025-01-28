@@ -1,0 +1,26 @@
+.container{
+    width: 300px;
+    border: 2px black solid;
+    margin: 150px;
+}
+#displayText{
+    margin: 4px;
+    height: 44px;
+    padding: 5px;
+    border: 2px solid brown;
+    width: 258px;
+}
+#buttonLayout{
+    display:grid;
+    grid-template-columns:60px 60px 60px 85px;
+    gap:5px;
+}
+
+button{
+    border-radius:5px;
+    border: 1px solid black;
+    height:50px;
+    background-color: cornsilk;
+    font-size: 25px;
+    margin:4px
+}
